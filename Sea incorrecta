@@ -1,0 +1,14 @@
+# Definir la contraseña correcta
+contraseña_correcta = "miContraseña123"
+
+# Inicializar la variable para controlar el bucle
+contraseña_ingresada = ""
+
+# Solicitar la contraseña mientras no sea correcta
+while True:
+    contraseña_ingresada = input("Por favor, ingresa la contraseña: ")
+    if contraseña_ingresada == contraseña_correcta:
+        print("Contraseña correcta. Acceso concedido.")
+        break  # Salir del bucle si la contraseña es correcta
+    else:
+        print("Contraseña incorrecta. Intenta de nuevo.")
